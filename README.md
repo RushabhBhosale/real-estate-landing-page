@@ -10,7 +10,7 @@ npm install
 
 The server will start on port 5000 by default.
 
-Open a web browser and go to http://localhost:5000 to view the application.
+Open a web browser and go to http://localhost:5173 to view the application.
 
 React: A JavaScript library for building user interfaces.
 Mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js.

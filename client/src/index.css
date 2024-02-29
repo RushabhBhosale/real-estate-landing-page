@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-100 {
+  font-weight: 100;
+}
+
+.lato-300 {
+  font-weight: 300;
+}
+
+.lato-400 {
+  font-weight: 400;
+}
+.lato-500 {
+  font-weight: 500;
+}
+
+.lato-800 {
+  font-weight: 800;
+}
+
+.lato-700 {
+  font-weight: 700;
+}
+
+.lato-600 {
+  font-weight: 600;
+}
+
+.lato-italic {
+  font-style: italic;
+}
+
+.bg-primary {
+  background-color: #071A45;
+}
+
+.text-primary {
+  color: #071A45;
+}
+
+.bg-secondary {
+  background-color: #d6e9f0;
+}
+
+.text-secondary {
+  color: #2c8fb5;
+}
+
+.bg-tertiary {
+  background-color: #3A7DFF;
+}
+
+.hover-button:hover .icon {
+  transform: translateX(15px);
+}
+
+.icon {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+
+.bg-building-1 {
+  background-repeat: no-repeat;
+  background-image: url('/building-2.png');
+}
+
+.bg-building-2 {
+  background-image: url('/building.png');
+  background-repeat: no-repeat;
+}
+
+.grad {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05374649859943981) 0%, rgba(0, 0, 0, 0.6111694677871149) 50%, rgba(0, 0, 0, 0.048144257703081283) 100%);
+}
+
+.grad-2 {
+  background: linear-gradient(93.39deg, #C5D9E0 0.4%, #A7C8D7 49.33%, #9FC7D7 104.99%);
+}
+
+.bg-community {
+  background-image: url('/community.png');
+}

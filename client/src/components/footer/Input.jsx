@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Input = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -14,7 +14,8 @@ const Input = () => {
         },
       });
       const result = await response.json();
-      console.log(result)
+      console.log(result);
+      setEmail('');
     } catch (error) {
       console.log(error)
     }
@@ -25,6 +26,7 @@ const Input = () => {
       <input
         type="email"
         value={email}
+        name='email'
         onChange={(e) => setEmail(e.target.value)}
         className='w-full h-[42px] rounded-lg'
         placeholder='   Email Id' />
